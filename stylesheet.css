@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+body{
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
+    background-color:#191970;
+}
+.heading{
+    text-align: center;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgb(230, 17, 17);
+}
+.buttons{
+    /* text-align: center; */
+    margin: 8px 0px;
+    /* padding: 20px; */
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.value{
+    padding: 20px;
+    width: 66px;
+    margin: 0 3px;
+    border: 4px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    color: aliceblue;
+    /* box-shadow: -8px -8px 15px rgba(211, 214, 232); */
+}
+.value:hover{
+    background-color: black;
+}
+.buttons input{
+    margin: 0;
+    width: 290px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: transparent;
+    color: antiquewhite;
+    text-align: right;
+}
+.equal{
+    background-color: orange;
+}
+.operator{
+    color: #6dee0a;
+}
