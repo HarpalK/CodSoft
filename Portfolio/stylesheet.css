@@ -133,7 +133,7 @@ img{
     position: relative;
 }
 .imgSlider{
-    background-image: url(/portfolio/content/h1.jpg);
+    background-image: url(/Portfolio/content/h1.jpg);
     width: 80%;
     height: 400px;
     animation: imageChange 25s linear 3s infinite;
@@ -143,19 +143,19 @@ img{
 }
 @keyframes imageChange {
     0%{
-        background-image: url(/portfolio/content/h1.jpg);
+        background-image: url(/Portfolio/content/h1.jpg);
     }
     25%{
-        background-image: url(/portfolio/content/h2.jpg);
+        background-image: url(/Portfolio/content/h2.jpg);
     }
     50%{
-        background-image: url(/portfolio/content/h3.jpg);
+        background-image: url(/Portfolio/content/h3.jpg);
     }
     75%{
-        background-image: url(/portfolio/content/h4.jpg);
+        background-image: url(/Portfolio/content/h4.jpg);
     }
     100%{
-        background-image: url(/portfolio/content/h5.jpg);
+        background-image: url(/Portfolio/content/h5.jpg);
     }
 }
 .buttons{
